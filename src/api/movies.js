@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const baseUrl = "http://www.omdbapi.com/";
-const apiKey = "610c0dab";
+const baseUrl = "https://www.omdbapi.com/";
+const apiKey = process.env.VUE_APP_OMDB_API_KEY;
 
 function searchMovie(searchPhrase, page = 1) {
   return axios.get(
