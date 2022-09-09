@@ -1,7 +1,7 @@
 <template>
     <div class="navbar" @click="$router.push('/')">
         <div class="logo">
-            🎞 The Movie Search App
+           🎬 The Movie Search App
         </div>
     </div>
 </template>

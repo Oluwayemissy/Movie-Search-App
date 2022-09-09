@@ -118,7 +118,7 @@ export default {
     width: calc(100vw - 64px);
     max-width: 507px;
     height: 50px;
-    margin-top: 35px;
+    margin-top: 72px;
     margin-inline: auto;
     padding: 6px;
     border-radius: 100px;
@@ -164,7 +164,7 @@ export default {
   }
 
   .illustration{
-    margin-top: 20px;
+    margin-top: 70px;
     width: 100%;
   }
 
